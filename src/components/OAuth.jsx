@@ -5,7 +5,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { signInSuccess } from "../redux/user/userSlice";
 import { useNavigate } from "react-router-dom";
-const url = "http://localhost:3000";
+const url = import.meta.env.URL;
 
 const OAuth = () => {
   const dispatch = useDispatch();

@@ -29,7 +29,7 @@ const UpdateListing = () => {
     parking: false,
     furnished: false,
   });
-  const url = process.env.URL;
+  const url = import.meta.env.URL;
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [loading, setLoading] = useState(false);

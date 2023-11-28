@@ -5,7 +5,7 @@ import SwiperCore from "swiper";
 import { useSelector } from "react-redux";
 import { Navigation } from "swiper/modules";
 import axios from "axios";
-const url = process.env.URL;
+const url = import.meta.env.URL;
 import "swiper/css/bundle";
 import {
   FaBath,

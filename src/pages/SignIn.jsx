@@ -11,7 +11,7 @@ import {
 const SignIn = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const url = process.env.URL;
+  const url = import.meta.env.URL;
   const [user, setUser] = useState({
     email: "",
     password: "",

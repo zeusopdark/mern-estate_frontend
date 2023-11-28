@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 const SignIn = () => {
   const navigate = useNavigate();
-  const url = process.env.URL;
+  const url = import.meta.env.URL;
   const [user, setUser] = useState({
     username: "",
     email: "",

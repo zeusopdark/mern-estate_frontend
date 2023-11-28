@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-const url = "http://localhost:3000";
+const url = import.meta.env.URL;
 const Contact = ({ listing }) => {
   const [landlord, setLandlord] = useState(null);
   const [message, setMessage] = useState("");

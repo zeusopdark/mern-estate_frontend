@@ -4,7 +4,7 @@ import axios from "axios";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ListingItem from "../components/ListingItem";
-const url = process.env.URL;
+const url = import.meta.env.URL;
 import "swiper/css/bundle";
 import SwiperCore from "swiper";
 const Home = () => {

@@ -27,7 +27,7 @@ const CreateListing = () => {
     parking: false,
     furnished: false,
   });
-  const url = import.meta.env.URL;
+  const url = "https://mern-estate-backend.vercel.app";
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [loading, setLoading] = useState(false);

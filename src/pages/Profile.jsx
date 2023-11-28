@@ -19,7 +19,7 @@ import {
 } from "firebase/storage";
 import { app } from "../firebase";
 import axios from "axios";
-const url = import.meta.env.URL;
+const url = "https://mern-estate-backend.vercel.app";
 import { Link } from "react-router-dom";
 const Profile = () => {
   const dispatch = useDispatch();

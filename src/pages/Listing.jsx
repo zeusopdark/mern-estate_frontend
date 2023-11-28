@@ -5,7 +5,7 @@ import SwiperCore from "swiper";
 import { useSelector } from "react-redux";
 import { Navigation } from "swiper/modules";
 import axios from "axios";
-const url = import.meta.env.URL;
+const url = "https://mern-estate-backend.vercel.app";
 import "swiper/css/bundle";
 import {
   FaBath,

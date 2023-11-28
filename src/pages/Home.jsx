@@ -4,7 +4,7 @@ import axios from "axios";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ListingItem from "../components/ListingItem";
-const url = import.meta.env.URL;
+const url = "https://mern-estate-backend.vercel.app";
 import "swiper/css/bundle";
 import SwiperCore from "swiper";
 const Home = () => {

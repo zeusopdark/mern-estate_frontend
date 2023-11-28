@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import ListingItem from "../components/ListingItem";
-const url = import.meta.env.URL;
+const url = "https://mern-estate-backend.vercel.app";
 const Search = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
